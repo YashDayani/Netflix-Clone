@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+.main{
+    background-image: url(assets/images/bg.jpg);
+    height: 95vh;
+    background-size: max(1200px,100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main .box{
+    height: 95vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    top: 0;
+    display: flex;
+    max-width: 80vw;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    height: 62px;
+    max-width: 77vw;
+}
+
+nav img{
+    width: 140px;
+    position: relative;
+    z-index: 10;
+    
+}
+
+.hero{
+    height: calc(100% - 62px);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+    padding: 0px 30px;
+}
+
+.hero> :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero>:nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.line{
+    background-color: rgb(54, 54, 54);
+    height:8px
+}
+
+.btn1{
+    background-color: rgba(0, 0, 0, 0.458);
+    color: white;
+    position: relative;
+    z-index: 10;
+    border: 1px solid rgb(137, 131, 131);
+    padding: 7px 18px;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.btn2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 24, 24);
+    position: relative;
+    z-index: 10;
+    border: none;
+    padding: 7px 18px;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.btn3{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 24, 24);
+    position: relative;
+    z-index: 10;
+    border: none;
+    padding: 13px 20px;
+    font-size: 24px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+input[type="email"]{
+    color: rgb(255, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    z-index: 10;
+    border: none;
+    padding: 7px 18px;
+    font-size: 16px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border:1px solid rgb(154, 147, 147);
+}
+
+input[placeholder="Email address"]{
+    font-weight: bold;
+}
+
+.hero>div{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}

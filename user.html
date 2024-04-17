@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #141414;
+            font-family: 'Segoe UI';
+            letter-spacing: normal;
+            color: white;
+        }
+
+        .container {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        svg{
+            color: gray;
+            height: 20px;
+        }
+
+        .profile {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 33px;
+            justify-content: center;
+        }
+
+        button {
+            background-color: #141414;
+            border: 1px solid gray;
+            color: gray;
+            font-size: larger;
+            padding: 10px 25px;
+            margin-top: 30px;
+        }
+
+        button:hover {
+            border: 1px solid rgb(255, 255, 255);
+            color: rgb(255, 255, 255);
+        }
+
+        h1 {
+            font-size: 54px;
+            font-weight: 400;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 400;
+            color: gray;
+        }
+
+        img {
+            border-radius: 5px;
+            height: 154px;
+            box-sizing: border-box;
+        }
+
+        .user:hover {
+            img {
+                border: 4px solid white;
+                cursor: pointer;
+            }
+
+            h2 {
+                color: white;
+                cursor: pointer;
+            }
+
+            svg{
+                color: gray;
+            }
+
+        }
+
+        .container {
+            margin-top: 11%;
+        }
+
+        @media only screen and (max-width: 1200px) {
+
+            h1 {
+                font-size: 30px;
+            }
+
+            img {
+                height: 100px;
+            }
+
+            .profile {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 22px;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+
+            h1 {
+                font-size: 30px;
+            }
+
+            img {
+                height: 100px;
+            }
+
+            .profile {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 11px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Who's watching?</h1>
+        <div class="profile">
+            <div class="user"><img src="assets/images/profile (1).png">
+                <h2>Dhutak</h2>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-icon svg-icon-profile-lock ltr-4z3qvp e1svuwfo1" data-name="Lock" aria-labelledby=":R4b9km:" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 6C7 3.23858 9.23858 1 12 1C14.7614 1 17 3.23858 17 6V7H19C20.1046 7 21 7.89543 21 9V18.6529C21 19.6274 20.2885 20.4855 19.2814 20.6076C18.0287 20.7593 15.492 21 12 21C8.50801 21 5.97128 20.7593 4.71855 20.6076C3.71153 20.4855 3 19.6274 3 18.6529V9C3 7.89543 3.89543 7 5 7H7V6ZM15 6V7H9V6C9 4.34315 10.3431 3 12 3C13.6569 3 15 4.34315 15 6ZM5 9V18.627C6.19927 18.7708 8.63769 19 12 19C15.3623 19 17.8007 18.7708 19 18.627V9H5ZM11 12V16H13V12H11Z" fill="currentColor"></path></svg>
+            </div class="user">
+            <div class="user"><img src="assets/images/profile (2).png">
+                <h2>Kunj</h2>
+            </div class="user">
+            <div class="user"><img src="assets/images/profile (3).png">
+                <h2>Parth</h2>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-icon svg-icon-profile-lock ltr-4z3qvp e1svuwfo1" data-name="Lock" aria-labelledby=":R4b9km:" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 6C7 3.23858 9.23858 1 12 1C14.7614 1 17 3.23858 17 6V7H19C20.1046 7 21 7.89543 21 9V18.6529C21 19.6274 20.2885 20.4855 19.2814 20.6076C18.0287 20.7593 15.492 21 12 21C8.50801 21 5.97128 20.7593 4.71855 20.6076C3.71153 20.4855 3 19.6274 3 18.6529V9C3 7.89543 3.89543 7 5 7H7V6ZM15 6V7H9V6C9 4.34315 10.3431 3 12 3C13.6569 3 15 4.34315 15 6ZM5 9V18.627C6.19927 18.7708 8.63769 19 12 19C15.3623 19 17.8007 18.7708 19 18.627V9H5ZM11 12V16H13V12H11Z" fill="currentColor"></path></svg>
+            </div class="user">
+            <div class="user"><img src="assets/images/profile (4).png">
+                <h2>Yash</h2>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-icon svg-icon-profile-lock ltr-4z3qvp e1svuwfo1" data-name="Lock" aria-labelledby=":R4b9km:" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 6C7 3.23858 9.23858 1 12 1C14.7614 1 17 3.23858 17 6V7H19C20.1046 7 21 7.89543 21 9V18.6529C21 19.6274 20.2885 20.4855 19.2814 20.6076C18.0287 20.7593 15.492 21 12 21C8.50801 21 5.97128 20.7593 4.71855 20.6076C3.71153 20.4855 3 19.6274 3 18.6529V9C3 7.89543 3.89543 7 5 7H7V6ZM15 6V7H9V6C9 4.34315 10.3431 3 12 3C13.6569 3 15 4.34315 15 6ZM5 9V18.627C6.19927 18.7708 8.63769 19 12 19C15.3623 19 17.8007 18.7708 19 18.627V9H5ZM11 12V16H13V12H11Z" fill="currentColor"></path></svg>
+            </div class="user">
+            <div class="user"><img src="assets/images/profile (5).png">
+                <h2>Child</h2>
+            </div class="user">
+        </div>
+        <button>Manage Profiles</button>
+    </div>
+
+</body>
+
+</html>
