@@ -5,7 +5,7 @@ body{
 }
 
 .main{
-    background-image: url(assets/images/bg.jpg);
+    background-image: url(/assets/images/bg.jpg);
     height: 95vh;
     background-size: max(1200px,100vw);
     background-position: center center;
@@ -22,6 +22,11 @@ body{
     top: 0;
 }
 
+.main div{
+    display: flex;
+    gap: 20px;
+}
+
 nav{
     top: 0;
     display: flex;
@@ -31,6 +36,7 @@ nav{
     justify-content: space-between;
     height: 62px;
     max-width: 77vw;
+    padding-top: 15px;
 }
 
 nav img{
@@ -40,8 +46,8 @@ nav img{
     
 }
 
-.hero{
-    height: calc(100% - 62px);
+.hero {
+    height: calc(100% - 77px);
     display: flex;
     flex-direction: column;
     color: white;
@@ -52,88 +58,163 @@ nav img{
     padding: 0px 30px;
 }
 
-.hero> :nth-child(1){
+.hero > :nth-child(1) {
     font-weight: 900;
     font-size: 48px;
     text-align: center;
 }
 
-.hero>:nth-child(2){
+.hero > :nth-child(2),
+.hero > :nth-child(3) {
     font-weight: 400;
     font-size: 24px;
     text-align: center;
 }
 
-.hero> :nth-child(3){
-    font-weight: 400;
-    font-size: 24px;
-    text-align: center;
-}
-
-.line{
+.line {
     background-color: rgb(54, 54, 54);
-    height:8px
+    height: 8px;
 }
 
-.btn1{
-    background-color: rgba(0, 0, 0, 0.458);
+.btn1,
+.btn2,
+.btn3 {
     color: white;
     position: relative;
     z-index: 10;
+    padding: 7px 18px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.btn1 {
+    background-color: rgba(0, 0, 0, 0.458);
     border: 1px solid rgb(137, 131, 131);
-    padding: 7px 18px;
-    font-weight: 400;
-    font-size: 14px;
-    border-radius: 3px;
-    box-sizing: border-box;
-    font-weight: bold;
 }
 
-.btn2{
-    color: rgb(255, 255, 255);
-    background-color: rgb(255, 24, 24);
-    position: relative;
-    z-index: 10;
+.btn2,
+.btn3 {
     border: none;
-    padding: 7px 18px;
-    font-weight: 400;
-    font-size: 14px;
-    border-radius: 3px;
-    font-weight: bold;
 }
 
-.btn3{
-    color: rgb(255, 255, 255);
+.btn2 {
     background-color: rgb(255, 24, 24);
-    position: relative;
-    z-index: 10;
-    border: none;
+}
+
+.btn3 {
+    background-color: rgb(255, 24, 24);
     padding: 13px 20px;
     font-size: 24px;
-    border-radius: 3px;
-    font-weight: bold;
 }
 
-input[type="email"]{
+input[type="email"] {
     color: rgb(255, 0, 0);
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.614);
     position: relative;
     z-index: 10;
-    border: none;
+    border: 1px solid rgb(154, 147, 147);
     padding: 7px 18px;
     font-size: 16px;
     height: 40px;
-    width: 300px;
+    width: 350px;
     border-radius: 5px;
-    border:1px solid rgb(154, 147, 147);
 }
 
-input[placeholder="Email address"]{
-    font-weight: bold;
+input[placeholder="Email address"] {
+    font-weight: 600;
+    font-size: 15px;
 }
 
-.hero>div{
+.email-in {
     display: flex;
     align-items: center;
-    gap: 7px;
+    gap: 10px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    padding: 70px 10px;
+}
+
+.first > div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.secImg img {
+    width: 35vw;
+}
+
+.heading,
+.sub-heading {
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+}
+
+.sub-heading {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 75vw;
+    margin: auto;
+    padding: 50px 10px;
+}
+
+.second img {
+    height: 450px;
+}
+
+.second > :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.macImg img {
+    height: 600px;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.que {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 0px 20px;
+}
+
+.que div {
+    display: flex;
+    background-color: rgb(45, 45, 45);
+    width: 75vw;
+    height: 9vh;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.que div div {
+    width: fit-content;
+}
+
+.tes1 img {
+    filter: hue-rotate(100deg);
 }
