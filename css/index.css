@@ -252,7 +252,9 @@ a {
     column-gap: 150px;
     width: 60vw;
 }
-
+.flink2{
+    display: none;
+}
 .footer {
     display: flex;
     flex-direction: column;
@@ -320,6 +322,13 @@ ul {
         width: 40vh;
         height: 7vh;
     }
+    .flink{
+        display: none;
+    }
+    .flink2{
+        display: flex;
+        gap: 100px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -366,7 +375,9 @@ ul {
     .que span {
         font-size: 18px;
     }
-
+    .faq img{
+        height: 25px;
+    }
     .que img {
         width: 5vw;
     }
@@ -377,6 +388,10 @@ ul {
         height: fit-content;
         gap: 0px;
 
+    }
+
+    .btn2,.btn1 {
+        height: 25px;
     }
 
     .btn3 img,.btn1 img{
