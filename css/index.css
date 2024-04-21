@@ -328,6 +328,8 @@ ul {
     .flink2{
         display: flex;
         gap: 100px;
+        margin: 0;
+        padding: 0;
     }
 }
 
