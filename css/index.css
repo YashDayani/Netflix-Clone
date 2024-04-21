@@ -364,7 +364,7 @@ ul {
     }
 
     .que span {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .que img {
@@ -399,4 +399,12 @@ ul {
     .line{
         margin-top: 40px;
     }
+}
+
+@media screen and (max-width: 400px) {
+    .que span {
+        font-size: 14px;
+    }
+    .hero {
+        height: calc(100% - 120px);}
 }
