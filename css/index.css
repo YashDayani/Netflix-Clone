@@ -282,24 +282,38 @@ ul {
         flex-wrap: wrap;
     }
 
-    .bt3 {
-        flex-wrap: nowrap;
-    }
-
     .btn3 img{
-        height: 1.5em;
+        height: 1.3em;
     }
 
-    .bt3 svg{
-        width: 2px;
+    .btn3{
+        height: 47px;
+        font-size: 18px;
     }
 
     .sect1{
         flex-direction: column-reverse;
     }
+
+    .btn2,.btn1{
+        font-size: 18px;
+        width: fit-content;
+        height: 100%;
+        gap: 5px;
+        height: 40px;
+
+    }
+
+    input[type="email"] {
+        padding: 7px 18px;
+        font-size: 16px;
+        box-sizing: border-box;
+        width: 40vh;
+        height: 7vh;
+    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     body{
         overflow-x: hidden;
     }
