@@ -282,9 +282,20 @@ ul {
         flex-wrap: wrap;
     }
 
-    img {
-        width: 100%;
-        overflow: hidden;
+    .bt3 {
+        flex-wrap: nowrap;
+    }
+
+    .btn3 img{
+        height: 1.5em;
+    }
+
+    .bt3 svg{
+        width: 2px;
+    }
+
+    .sect1{
+        flex-direction: column-reverse;
     }
 }
 
