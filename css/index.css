@@ -35,12 +35,11 @@ body {
 nav {
     top: 0;
     display: flex;
-    max-width: 80vw;
     align-items: center;
     margin: auto;
     justify-content: space-between;
     height: 62px;
-    max-width: 77vw;
+    width: 77vw;
     padding-top: 15px;
 }
 
@@ -281,29 +280,39 @@ ul {
     .second {
         flex-wrap: wrap;
     }
-
+    .hero {
+        height: calc(100% - 130px);
+    }
+    
+    .main .line{
+        margin-bottom: 10px;
+    }
     .btn3 img{
         height: 1.3em;
     }
 
     .btn3{
-        height: 47px;
+        height: 50px;
         font-size: 18px;
     }
-
+    nav{
+        width: 95vw;
+    }
     .sect1{
         flex-direction: column-reverse;
     }
 
     .btn2,.btn1{
-        font-size: 18px;
+        font-size: 15px;
         width: fit-content;
-        height: 100%;
-        gap: 5px;
-        height: 40px;
+        height: 30px;
+        font-weight: 400;
+        gap: 10px;
 
     }
-
+    .first .heading{
+        margin-top: 50px;
+    }
     input[type="email"] {
         padding: 7px 18px;
         font-size: 16px;
@@ -370,25 +379,19 @@ ul {
 
     }
 
-    .btn3 img{
+    .btn3 img,.btn1 img{
         height: 1.5em;
     }
 
+    .btn3 {
+        height: 3.5em;
+        width: 10em;
+    }
     .email-in{
         flex-direction: column;
     }
     input[type="email"] {
-        color: rgb(255, 0, 0);
-        background-color: rgba(33, 32, 32, 0.614);
-        position: relative;
-        z-index: 10;
-        border: 1px solid rgb(154, 147, 147);
-        padding: 7px 18px;
-        font-size: 16px;
-        box-sizing: border-box;
-        width: 40vh;
-        height: 7vh;
-        border-radius: 5px;
+        width: 50vw;
     }
     .flink {
         flex-direction: column;
