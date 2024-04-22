@@ -64,7 +64,9 @@ span{
     color: white;
     text-align: center;
 }
-
+.signin .simenu span:nth-of-type(3){
+    text-align: left;
+}
 label{
     color: white;
 }
