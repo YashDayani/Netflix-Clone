@@ -1,0 +1,70 @@
+body{
+    background-image: url("/assets/images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+.main{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.header img{
+    height: 40px;
+    padding: 20px 170px;
+}
+
+.signin{
+    display: flex;
+    justify-content: center;
+}
+
+.signin div{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 645px;
+    width: 314px;
+}
+.simenu{
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+h1{
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+    position: relative;
+}
+
+input{
+    border-radius: 0.25rem;
+    padding: 1.5rem 1rem 0.5rem;
+    background-color: rgba(255, 255, 255, 0.042);
+    border: 1px solid rgb(82, 82, 82);
+}
+button{
+    border-radius: 0.25rem;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: none;
+}
+.btn1{
+    background-color: #E50914;
+}
+.btn2{
+    background-color: #ffffff33;
+}
+span{
+    color: white;
+    text-align: center;
+}
+
+label{
+    color: white;
+}
