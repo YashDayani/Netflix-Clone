@@ -60,6 +60,7 @@ button{
     font-weight: 500;
     color: white;
     border: none;
+    cursor: pointer;
 }
 .btn1{
     background-color: #E50914;
@@ -123,20 +124,29 @@ footer{
 
 .footer span{
     text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer>span{
+    text-align: left;
+    font-size: 16px;
 }
 
 .link-list{
     display: grid;
+    font-size: 14px;
     grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(2, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 20px;
+text-decoration: underline;
+cursor: pointer;
 }
 
 .footer{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 20px;
-    padding: 75px 150px;
+    gap: 30px;
+    padding: 75px 175px;
+    color: rgba(255, 255, 255, 0.7);
 }
