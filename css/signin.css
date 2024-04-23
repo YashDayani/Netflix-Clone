@@ -150,3 +150,54 @@ cursor: pointer;
     padding: 75px 175px;
     color: rgba(255, 255, 255, 0.7);
 }
+
+@media screen and (max-width: 1280px){
+    
+    .header img{
+        height: 40px;
+        padding: 25px 35px;
+    }
+
+    .footer{
+        padding: 75px 35px;
+    }
+}
+
+@media screen and (max-width: 960px){
+
+    .header img{
+        height: 24px;
+    }
+
+    .link-list{
+        grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background-image: none;
+        background-color: black;
+    }
+    .header{
+        
+        background-color: black;
+    }
+    .header img{
+        padding: 25px 25px;
+    }
+    .simenu>h1{
+        margin: 0px 0px 15px 0px;
+    }
+    .signin div{
+        width: 100%;
+        padding: 0px 30px;
+        height: 550px;
+    }
+    .footer{
+        padding: 25px 25px;
+        background-color: black;
+        border-top: 1px solid rgba(255, 255, 255, 0.7);
+    }
+}
